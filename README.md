@@ -1,8 +1,6 @@
 ### Overview
 
-Apt, adaptable, autonomous. I enjoy a healthy work environment: where a culture of excellence and humility is actively cultivated and met with opportunity and camaraderie.
-
-Full-stack .NET web application engineer with an emphasis in enterprise systems, cybersecurity, identity and access management, and cryptography.
+Senior enterprise web application developer; information security specialist; DevOps engineer; IAM specialist; aspiring cryptologist; and CRM developer in training with applied experience in Education since 2004.
 
 For the latest information, please visit [mattborja.dev](https://mattborja.dev/).
 
