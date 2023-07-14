@@ -47,35 +47,14 @@ Balancing impetus with stakeholder expectations (and a little bit of stress-reli
 
 ## Interests
 
-*   `Linux`
-*   `.NET`
-*   `C & C++`
-*   `JavaScript`
-*   `Network Security`
-*   `Web Development`
-*   `Computer Forensics`
-*   `jQuery`
-*   `Bootstrap`
-*   `MMORPG`
-*   `Digital Forensics`
-*   `Continuous Integration`
-*   `Electrical Engineering`
-*   `Platform as a Service (PaaS)`
-*   `OWASP`
-*   `Project Management`
-*   `Arduino`
-*   `Configuration Management`
-*   `Web Security`
-*   `MVC`
-*   `HTML5`
-*   `Cryptography`
-*   `DevOps`
-*   `Cloud Security`
-*   `Infrastructure as Code`
-*   `Penetration Testing`
-*   `Test Driven Development`
-*   `C#`
-*   `Sass`
+*   Infrastructure: Linux, Network Security
+*   Compiled languages: C, C++, .NET (C#)
+*   Interpreted languages: JavaScript, CSS, HTML5
+*   Frameworks: jQuery, Bootstrap, ASP.NET MVC (C#)
+*   DevOps: Continuous Integration, Configuration Management, Infrastructure as Code
+*   Information security: Computer and digital forensics, OWASP, web application security, penetration testing, cryptography
+*   Software: Web application development, Platform as a Service (PaaS), test driven development
+*   Hardware: Electrical Engineering, Arduino
 
 ## Contact
 Send email to: gh-mattborja.eclipse158@passmail.com
