@@ -10,7 +10,7 @@ Senior enterprise web application developer; information security specialist; De
 *   [Trailblazer.me](https://trailblazer.me/id/mattborja)
 *   [HackerOne](https://hackerone.com/mattborja/badges)
 *   [LinkedIn](https://www.linkedin.com/in/mattborja)
-*   [PGP Information](https://mattborja.dev/#pgp)
+*   [PGP Information](#pgp)
 
 ## Quick Look
 
