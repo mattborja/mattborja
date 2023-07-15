@@ -61,8 +61,17 @@ Balancing impetus with stakeholder expectations (and a little bit of stress-reli
 Send email to: gh-mattborja.eclipse158@passmail.com
 
 ## PGP
-**Fingerprint:** `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38`
+### History
+| Fingerprint                                         | Created    | Status     |
+|-----------------------------------------------------|------------|------------|
+| `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38` | 2021-12-29 | **Active** |
+| `6FDD 7A12 197C 04F8 F510 585C 9DB9 CDDC 7708 8F26` | 2022-04-18 | Inactive   |
+| `3371 63B2 51AD 534D 6E30 8DC4 BC60 808C E2A8 20F6` | 2022-04-18 | Revoked    |
+| `4105 C4E5 774F 401B 1824 6910 FED8 1E8C 4D67 3B96` | 2022-04-18 | Revoked    |
+| `8ED0 E383 176C FAE7 8899 0F29 22E7 1A76 0A44 E2D6` | 2012-03-07 | Revoked    |
+| `F88A 7363 03AB F22B 60F4 A9C1 C892 093A 3570 183E` | 2003-08-28 | Revoked    |
 
+### Sources
 *   **Download:** [mattborja.dev](https://mattborja.dev/security/pgp/33688C2EDC08CD38.pub.asc)
 *   **Download:** [pgp.re](https://pgp.re/pks/lookup?search=0xF30FF4FC936584574EE3251833688C2EDC08CD38&fingerprint=on&op=index)
 *   **Download:** [keybase.io](https://keybase.io/mattborja/pgp_keys.asc?fingerprint=f30ff4fc936584574ee3251833688c2edc08cd38) ([profile](https://keybase.io/mattborja))
