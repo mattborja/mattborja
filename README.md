@@ -61,6 +61,8 @@ Balancing impetus with stakeholder expectations (and a little bit of stress-reli
 Send email to: gh-mattborja.eclipse158@passmail.com
 
 ## PGP
+PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted by its corresponding signed commit ([be02acb](https://github.com/mattborja/mattborja/commit/be02acb5fa564d57e5bad40be1518c796d79e742)); verified under [GitHub vigilant mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits).
+
 ### History
 | Fingerprint                                         | Created    | Status     |
 |-----------------------------------------------------|------------|------------|
