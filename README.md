@@ -74,7 +74,7 @@ PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted b
 | `F88A 7363 03AB F22B 60F4 A9C1 C892 093A 3570 183E` | 2003-08-28 | Revoked    |
 
 ### Verifications
-Beyond merely verifying the integrity of digital information using an accompanying PGP signature; it is even more important to authenticate of the signature itself through a process of key owner verification.
+Beyond merely verifying the integrity of digital information using an accompanying PGP signature; it is even more important to authenticate the signature itself through a process of *key owner verification*.
 
 For a list of key owner verifications and methodologies I've conducted to date, see [/security/pgp/verifications.csv](https://mattborja.dev/security/pgp/verifications.csv).
 
