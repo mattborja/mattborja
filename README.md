@@ -73,6 +73,18 @@ PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted b
 | `8ED0 E383 176C FAE7 8899 0F29 22E7 1A76 0A44 E2D6` | 2012-03-07 | Revoked    |
 | `F88A 7363 03AB F22B 60F4 A9C1 C892 093A 3570 183E` | 2003-08-28 | Revoked    |
 
+### Verifications
+Beyond merely verifying the integrity of digital information using an accompanying PGP signature; it is even more important to authenticate of the signature itself through a process of key owner verification.
+
+For a list of key owner verifications and methodologies I've conducted to date, see [/security/pgp/verifications.csv](https://mattborja.dev/security/pgp/verifications.csv).
+
+Browsing from a Linux shell using `curl`, `column`, and `less`:
+```bash
+curl -s https://mattborja.dev/security/pgp/verifications.csv | column -s, -t | less -#4 -S -
+```
+<img width="1593" alt="image" src="https://github.com/mattborja/mattborja/assets/3855027/57406f67-1a57-4c5a-9e03-09ab2200f242">
+
+
 ### Sources
 *   **Download:** [mattborja.dev](https://mattborja.dev/security/pgp/33688C2EDC08CD38.pub.asc)
 *   **Download:** [pgp.re](https://pgp.re/pks/lookup?search=0xF30FF4FC936584574EE3251833688C2EDC08CD38&fingerprint=on&op=index)
