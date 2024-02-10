@@ -9,7 +9,7 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 - Infrastructure orchestration and automation
 - Ivy Lee Method (productivity)
 - Horizontal scalability and high availability
-- Project lead
+- Project lead and formal documentation
 - Collaboration and camaraderie
 - Contributing to open source projects
 
