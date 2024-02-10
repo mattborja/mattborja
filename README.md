@@ -19,32 +19,29 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 ## Industry Experience
 |Area|Technologies|
 |-|-|
-|Database|Microsoft SQL Server, MySQL, Oracle, Couchbase|
-|Coding|C#, ASP.NET MVC, Entity Framework (Code First), Classic ASP extended with custom COM objects, Node.js, PHP, CodeIgniter, Laravel|
-|UI/UX|XHTML, CSS, JavaScript, Bootstrap, jQuery|
-|HTTP|Cross-Origin Resource Sharing (CORS), Sub-Resource Integrity (SRI), Content Security Policy (CSP), SSL Configuration, HTTP Strict Transport Security (HSTS), proxy, use of appropriate HTTP methods and status codes (REST), and request tracing|
-|Web Application Security|OWASP Top 10, SANS SWAT Checklist, manual penetration testing, applied cryptography, systems analysis and network mapping|
-|Cryptography|Implement procedures and best practices for applied cryptography emphasizing proper use of key derivation functions, salts, initialization vectors, message authentication codes, hashing, and key management|
-|Infrastructure|TCP/UDP load balancing, tuning, and failover (HAProxy, NGINX). Web server configuration (IIS 7.5/10.0, Tomcat), DNS management, firewall management, virtual IP management, SSL termination, clustering, and automation (Puppet).|
-|CI/CD|Git, environment branches, pull requests, branch policies, pre-deployment approval for continuous delivery. Version control repository hosting in Bitbucket, GitHub, and Azure DevOps.|
-|Supervision|Provide mentoring, guidance, and architecture decisions. Develop and maintain standard operating procedures. Review work for compliance, security, and best practices. Coordinate changes for release.|
-|Project Management|Gather requirements, evaluate cost, conduct systems analysis, manage expectations, coordinate and direct work.|
+|**Database**|★ ★ ★ ★ ☆<br />Microsoft SQL Server, MySQL, Oracle, Couchbase|
+|**Coding**|★ ★ ★ ★ ★<br />C#, ASP.NET MVC, Entity Framework (Code First), Classic ASP extended with custom COM objects, Node.js, PHP, CodeIgniter, Laravel|
+|**UI/UX**|★ ★ ★ ★ ☆<br />XHTML, CSS, JavaScript, Bootstrap, jQuery|
+|**HTTP**|★ ★ ★ ★ ★<br />Cross-Origin Resource Sharing (CORS), Sub-Resource Integrity (SRI), Content Security Policy (CSP), SSL Configuration, HTTP Strict Transport Security (HSTS), proxy, use of appropriate HTTP methods and status codes (REST), and request tracing|
+|**Web Application Security**|★ ★ ★ ★ ★<br />OWASP Top 10, SANS SWAT Checklist, manual penetration testing, applied cryptography, systems analysis and network mapping|
+|**Cryptography**|★ ★ ★ ★ ☆<br />Implement procedures and best practices for applied cryptography emphasizing proper use of key derivation functions, salts, initialization vectors, message authentication codes, hashing, and key management|
+|**Infrastructure**|★ ★ ★ ★ ★<br />TCP/UDP load balancing, tuning, and failover (HAProxy, NGINX). Web server configuration (IIS 7.5/10.0, Tomcat), DNS management, firewall management, virtual IP management, SSL termination, clustering, and automation (Puppet).|
+|**CI/CD**|★ ★ ★ ★ ★<br />Git, environment branches, pull requests, branch policies, pre-deployment approval for continuous delivery. Version control repository hosting in Bitbucket, GitHub, and Azure DevOps.|
+|**Supervision**|★ ★ ★ ★ ★<br />Provide mentoring, guidance, and architecture decisions. Develop and maintain standard operating procedures. Review work for compliance, security, and best practices. Coordinate changes for release.|
+|**Project Management**|★ ★ ★ ★ ★<br />Gather requirements, evaluate cost, conduct systems analysis, manage expectations, coordinate and direct work.|
 
 ## Quick Look
 
 ### Web Development & Security
+ Enterprise web application development
 
-★ ★ ★ ★ ★
+★ ★ ★ ★ ☆ &tab; Operations & Infrastructure
 
-Full-stack enterprise web application development.
 
 Security-conscious applications built on the formiddable ASP.NET MVC (C#) framework; database-backed by both relational database management engines (i.e. Microsoft SQL Server and Oracle) and document-oriented database engines (i.e. Couchbase, Mongo) with UI/UX investments in HTML 5, Bootstrap, and jQuery.
 
 I also really love Ruby on Rails and Node.js (and the idea of Go), but just haven't had the opportunity to deploy as much with those.
 
-### Operations & Infrastructure
-
-★ ★ ★ ★ ☆
 
 Manual and automated system configuration of highly available application environments.
 
