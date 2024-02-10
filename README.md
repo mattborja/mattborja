@@ -4,7 +4,9 @@
 I look for accountability, ask lots of questions, and pursue the strategic involvement of collaborative individuals: to innovate and create long-lasting business solutions of exemplary quality.
 
 ## vCard
-![image](https://github.com/mattborja/mattborja/assets/3855027/5f65da1c-b5e9-4148-9618-11855a15ac9a)
+([Download](/VCARD.vcf))
+
+[![image](https://github.com/mattborja/mattborja/assets/3855027/5f65da1c-b5e9-4148-9618-11855a15ac9a)](/VCARD.vcf)
 
 ## Interests
 - Data-driven business applications and software architecture
