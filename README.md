@@ -13,16 +13,6 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 - Collaboration and camaraderie
 - Contributing to open source projects
 
-### Links
-*   [Main Website (mattborja.dev)](https://mattborja.dev)
-*   [GitHub](https://github.com/mattborja)
-*   [CodePen](https://codepen.io/mattborja)
-*   [Stack Overflow](https://stackoverflow.com/users/901156/matt-borja?tab=profile)
-*   [Trailblazer.me](https://trailblazer.me/id/mattborja)
-*   [HackerOne](https://hackerone.com/mattborja/badges)
-*   [LinkedIn](https://www.linkedin.com/in/mattborja)
-*   [PGP Information](#pgp)
-
 ## Quick Look
 
 ### Web Development & Security
