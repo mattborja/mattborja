@@ -3,6 +3,9 @@
 
 I look for accountability, ask lots of questions, and pursue the strategic involvement of collaborative individuals: to innovate and create long-lasting business solutions of exemplary quality.
 
+## vCard
+![image](https://github.com/mattborja/mattborja/assets/3855027/5f65da1c-b5e9-4148-9618-11855a15ac9a)
+
 ## Interests
 - Data-driven business applications and software architecture
 - Information security, penetration testing, and cryptography
@@ -59,9 +62,6 @@ Balancing impetus with stakeholder expectations (and a little bit of stress-reli
 | 2019 | [Azure DevOps for Project Managers](https://www.udemy.com/course/azure-devops-for-project-managers-business-analysts/) |
 | 2014 | [Building an End-to-End Web Application with ASP.NET MVC5 (C#), EF Code First, HTML5 and jQuery](https://www.interfacett.com/training/dev500-building-an-html5-end-to-end-web-application-with-asp-net-mvc5-ef-code-first-and-jquery/) |
 | 2014 | [Web App Penetration Testing and Ethical Hacking, SEC542, SANS](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
-
-## Contact
-Send email to: gh-mattborja.eclipse158@passmail.com
 
 ## PGP
 PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted by its corresponding signed commit ([be02acb](https://github.com/mattborja/mattborja/commit/be02acb5fa564d57e5bad40be1518c796d79e742)); verified under [GitHub vigilant mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits).
