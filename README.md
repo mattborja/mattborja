@@ -30,37 +30,6 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 |**Supervision**|★ ★ ★ ★ ★<br />Provide mentoring, guidance, and architecture decisions. Develop and maintain standard operating procedures. Review work for compliance, security, and best practices. Coordinate changes for release.|
 |**Project Management**|★ ★ ★ ★ ★<br />Gather requirements, evaluate cost, conduct systems analysis, manage expectations, coordinate and direct work.|
 
-## Quick Look
-
-### Web Development & Security
- Enterprise web application development
-
-★ ★ ★ ★ ☆ &tab; Operations & Infrastructure
-
-
-Security-conscious applications built on the formiddable ASP.NET MVC (C#) framework; database-backed by both relational database management engines (i.e. Microsoft SQL Server and Oracle) and document-oriented database engines (i.e. Couchbase, Mongo) with UI/UX investments in HTML 5, Bootstrap, and jQuery.
-
-I also really love Ruby on Rails and Node.js (and the idea of Go), but just haven't had the opportunity to deploy as much with those.
-
-
-Manual and automated system configuration of highly available application environments.
-
-Load balanced environments configured manually and by convention (using fully loaded Puppet Enterprise) largely include operating systems built on (else derived from) enterprise operating systems including, but not limtied to: Red Hat, CentOS, Windows Server, and Server Core.
-
-### Project & Release Management
-
-★ ★ ★ ★ ☆
-
-Balancing security standards with business requirements: an advocate for well-defined processes and relevant industry standards to achieve scale with consistency.
-
-Experiential investments largely focused on holistically integrating and applying the features of Azure DevOps including but not limited to Repos, Boards, and Pipelines.
-
-### Communications
-
-★ ★ ★ ★ ★
-
-Balancing impetus with stakeholder expectations (and a little bit of stress-relieving humor): an advocate for excellence and the pursuit thereof.
-
 ## Training History
 |Year|Module|
 |-|-|
