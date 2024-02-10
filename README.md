@@ -47,6 +47,19 @@ Experiential investments largely focused on holistically integrating and applyin
 
 Balancing impetus with stakeholder expectations (and a little bit of stress-relieving humor): an advocate for excellence and the pursuit thereof.
 
+## Training History
+|Year|Module|
+|-|-|
+| 2022 | [Delegation Skills for Busy Leaders ("Why & How")](https://www.linkedin.com/pulse/delegation-skills-busy-leaders-why-how-michael-lin/) |
+| 2021 | [Salesforce Trailhead](https://trailblazer.me/id/mattborja) |
+| 2020 | [Supervision: Core Competencies: Meeting the Needs of Today's Employees](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Team Leadership: Leading Teams](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Coaching Essentials: Partnering for Performance](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Conflict: Self-Management](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2019 | [Azure DevOps for Project Managers](https://www.udemy.com/course/azure-devops-for-project-managers-business-analysts/) |
+| 2014 | [Building an End-to-End Web Application with ASP.NET MVC5 (C#), EF Code First, HTML5 and jQuery](https://www.interfacett.com/training/dev500-building-an-html5-end-to-end-web-application-with-asp-net-mvc5-ef-code-first-and-jquery/) |
+| 2014 | [Web App Penetration Testing and Ethical Hacking, SEC542, SANS](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
+
 ## Contact
 Send email to: gh-mattborja.eclipse158@passmail.com
 
