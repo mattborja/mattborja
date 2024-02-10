@@ -1,6 +1,16 @@
 ## About
+**Sr. Software Engineer** and creative with an emphasis on simple elegance and enterprise architecture. Applied industry experience (Education) since 2004.
 
-Senior enterprise web application developer; information security specialist; DevOps engineer; IAM specialist; aspiring cryptologist; and CRM developer in training with applied experience in Education since 2004.
+I look for accountability, ask lots of questions, and pursue the strategic involvement of collaborative individuals: to innovate and create long-lasting business solutions of exemplary quality.
+
+## Interests
+- Data-driven business applications and software architecture
+- Information security and cryptography
+- Infrastructure orchestration and automation
+- Ivy Lee Method (productivity)
+- Horizontal scalability and high availability
+- Project lead
+- Collaboration and camaraderie
 
 ### Links
 *   [Main Website (mattborja.dev)](https://mattborja.dev)
@@ -45,17 +55,6 @@ Experiential investments largely focused on holistically integrating and applyin
 ★ ★ ★ ★ ★
 
 Balancing impetus with stakeholder expectations (and a little bit of stress-relieving humor): an advocate for excellence and the pursuit thereof.
-
-## Interests
-
-*   Infrastructure: Linux, Network Security
-*   Compiled languages: C, C++, .NET (C#)
-*   Interpreted languages: JavaScript, CSS, HTML5
-*   Frameworks: jQuery, Bootstrap, ASP.NET MVC (C#)
-*   DevOps: Continuous Integration, Configuration Management, Infrastructure as Code
-*   Information security: Computer and digital forensics, OWASP, web application security, penetration testing, cryptography
-*   Software: Web application development, Platform as a Service (PaaS), test driven development
-*   Hardware: Electrical Engineering, Arduino
 
 ## Contact
 Send email to: gh-mattborja.eclipse158@passmail.com
