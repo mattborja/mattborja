@@ -11,6 +11,7 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 - Horizontal scalability and high availability
 - Project lead
 - Collaboration and camaraderie
+- Contributing to open source projects
 
 ### Links
 *   [Main Website (mattborja.dev)](https://mattborja.dev)
