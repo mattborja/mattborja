@@ -43,6 +43,24 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 | 2014 | [Building an End-to-End Web Application with ASP.NET MVC5 (C#), EF Code First, HTML5 and jQuery](https://www.interfacett.com/training/dev500-building-an-html5-end-to-end-web-application-with-asp-net-mvc5-ef-code-first-and-jquery/) |
 | 2014 | [Web App Penetration Testing and Ethical Hacking, SEC542, SANS](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
 
+## Testimonials
+|Year|Summary of Work|
+|-|-|
+|2020|Assisted local city IT director in successfully deploying their first <a href="https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631498/Home" rel="nofollow">SAML 2.0 Identity Provider</a>|
+|2019|Recouped service fees (FFP) in excess of $40,000 from vendor breach of website build project contract and executed full project requirements in-house using <a href="https://www.hannonhill.com/products/cascade-cms/index.html" rel="nofollow">Cascade CMS</a>|
+|2019|Launched new, mobile-friendly College Portal rebuilt in-house using ASP.NET MVC (C#), yielding 95% improvement to login times and application performance|
+|2018|Replaced <a href="https://apereo.github.io/cas-management/" rel="nofollow">CAS Service Management WebApp</a> with custom Change Management solution using Azure Repos and Azure Pipelines|
+|2017|Successfully configured and deployed delegated Single Sign-On authentication for Office 365 applications orchestrating <a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/advanced-customization-of-ad-fs-sign-in-pages#additional-customization-examples" rel="nofollow">onload.js</a> with first successful in-house ADFS Claims Provider supporting SAML 2.0|
+|2017|Succesfully configured and deployed first <a href="https://shibboleth.atlassian.net/wiki/spaces/IDP4/pages/1265631498/Home" rel="nofollow">SAML 2.0 Identity Provider</a>|
+|2017|First adoption of a Software Development Life Cycle process governed by Release Management using <a href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model by Vincent Driessen</a>, and <a href="http://guides.beanstalkapp.com/version-control/branching-best-practices.html" rel="nofollow">Developing and Deploying with Branches</a> and <a href="http://guides.beanstalkapp.com/deployments/best-practices.html" rel="nofollow">Deplyoments Best Practices</a> by Beanstalk Guides|
+|2017|First adoption of Project Management using <a href="https://www.udemy.com/course/azure-devops-for-project-managers-business-analysts/" rel="nofollow">Azure DevOps for Project Managers</a> by Cals Tutorials|
+|2016|Self-taught implementation of <a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf" rel="nofollow">FIPS-197 in Arduino C</a>|
+|2016|<a href="https://www.dropbox.com/sh/kewjrfuehm6jh5q/AAA4nZXfvAyGndgakdx8aHmPa?dl=0" rel="nofollow">Challenge Coin received from Department of Defense</a> for submitting valid findings during Federal Govt.'s first ever bug bounty program, <a href="https://www.hackerone.com/hack-the-pentagon" rel="nofollow">Hack the Pentagon</a> hosted by HackerOne|
+|2013|Contributed software patch accepted by Single Sign-On software provider, Jasig/Apereo CAS, resolving lack of cluster support in cryptographic operations via <a href="https://apereo.atlassian.net/browse/CAS-1386" rel="nofollow">CAS-1386</a>|
+|2005|Orchestration of computer lab imaging, inventory management, and post-installation tasks using Altiris, DeepFreeze, Windows PE, and AutoIt|
+|2005|Automated arrangement of desktop icons on Mac OS 9 during annual imaging using AppleScript|
+|2004|Automated import of 1k+ student accounts from Student Information System into Active Directory using Visual Basic script|
+
 ## PGP
 
 ### Statement
