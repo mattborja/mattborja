@@ -5,7 +5,7 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 
 ## Interests
 - Data-driven business applications and software architecture
-- Information security and cryptography
+- Information security, penetration testing, and cryptography
 - Infrastructure orchestration and automation
 - Ivy Lee Method (productivity)
 - Horizontal scalability and high availability
