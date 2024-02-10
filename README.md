@@ -64,9 +64,10 @@ Balancing impetus with stakeholder expectations (and a little bit of stress-reli
 | 2014 | [Web App Penetration Testing and Ethical Hacking, SEC542, SANS](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
 
 ## PGP
-PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted by its corresponding signed commit ([be02acb](https://github.com/mattborja/mattborja/commit/be02acb5fa564d57e5bad40be1518c796d79e742)); verified under [GitHub vigilant mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits).
 
-### History
+### Statement
+The following PGP fingerprints belong to the owner of this repository: **Matt Borja**.
+
 | Fingerprint                                         | Created    | Status     |
 |-----------------------------------------------------|------------|------------|
 | `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38` | 2021-12-29 | **Active** |
@@ -76,23 +77,12 @@ PGP identity claims table for **Matt Borja** (https://mattborja.dev): asserted b
 | `8ED0 E383 176C FAE7 8899 0F29 22E7 1A76 0A44 E2D6` | 2012-03-07 | Revoked    |
 | `F88A 7363 03AB F22B 60F4 A9C1 C892 093A 3570 183E` | 2003-08-28 | Revoked    |
 
-### Verifications
-Beyond merely verifying the integrity of digital information using an accompanying PGP signature; it is even more important to authenticate the signature itself through a process of *key owner verification*.
+Asserted by cryptographically signed commit: [be02acb@master](https://github.com/mattborja/mattborja/commit/be02acb5fa564d57e5bad40be1518c796d79e742) ([learn more](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)).
 
-For a list of key owner verifications and methodologies I've conducted to date, see [/security/pgp/verifications.csv](https://mattborja.dev/security/pgp/verifications.csv).
-
-Browsing from a Linux shell using `curl`, `column`, and `less`:
-```bash
-curl -s https://mattborja.dev/security/pgp/verifications.csv | column -s, -t | less -#4 -S -
-```
-<img width="1593" alt="image" src="https://github.com/mattborja/mattborja/assets/3855027/57406f67-1a57-4c5a-9e03-09ab2200f242">
-
-
-### Sources
-*   **Download:** [mattborja.dev](https://mattborja.dev/security/pgp/33688C2EDC08CD38.pub.asc)
-*   **Download:** [pgp.re](https://pgp.re/pks/lookup?search=0xF30FF4FC936584574EE3251833688C2EDC08CD38&fingerprint=on&op=index)
-*   **Download:** [keybase.io](https://keybase.io/mattborja/pgp_keys.asc?fingerprint=f30ff4fc936584574ee3251833688c2edc08cd38) ([profile](https://keybase.io/mattborja))
-*   **Download:** [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/F30FF4FC936584574EE3251833688C2EDC08CD38)
-*   **Download:** [keyserver.ubuntu.com](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
-*   **Download:** [keyserver.pgp.com](https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x33688C2EDC08CD38)
-*   **Download:** [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
+### Download Sources
+- [pgp.re](https://pgp.re/pks/lookup?search=0xF30FF4FC936584574EE3251833688C2EDC08CD38&fingerprint=on&op=index)
+- [keybase.io](https://keybase.io/mattborja/pgp_keys.asc?fingerprint=f30ff4fc936584574ee3251833688c2edc08cd38) ([profile](https://keybase.io/mattborja))
+- [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/F30FF4FC936584574EE3251833688C2EDC08CD38)
+- [keyserver.ubuntu.com](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
+- [keyserver.pgp.com](https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x33688C2EDC08CD38)
+- [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
