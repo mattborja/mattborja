@@ -32,6 +32,18 @@ I look for accountability, ask lots of questions, and pursue the strategic invol
 |**Supervision**|★ ★ ★ ★ ★<br />Provide mentoring, guidance, and architecture decisions. Develop and maintain standard operating procedures. Review work for compliance, security, and best practices. Coordinate changes for release.|
 |**Project Management**|★ ★ ★ ★ ★<br />Gather requirements, evaluate cost, conduct systems analysis, manage expectations, coordinate and direct work.|
 
+## Industry Roles (Work History)
+|Timeframe|Job Title|
+|-|-|
+|Mar 2021 - Present|**Manager, Web Services**<br />Institution of Standard Operating Procedures Implementation of Continuous Integration, and Continuous Delivery for .NET applications, libraries, and application environments using Azure Pipelines; Development of business-aligned progression plans and job descriptions for .NET web application developers through Senior level; Development of Team Charter.|
+|Nov 2019 - Mar 2021|**Supervisor, Web Services**<br />Institution of Change Management, Project Management, and Software Development Life Cycle; Employee training, mentoring, and supervision; Initial formation of core development team; Interview panel member as Subject Matter Expert (SME).|
+|Sep 2013 - Nov 2019|**Developer, Web Applications**<br />Development and deployment of infrastructure management as code using Puppet Enterprise Configuration and deployment of Single Sign-On identity provider services and connectors (CAS, SAML, OAuth) Research and migration of on-premise application clusters to new high availability environment (HAProxy); Research and migration of legacy web applications (Classic ASP) to modern technology stack (ASP.NET MVC, C#) In-house planning, development, and maintenance of College Portal, Website, internal business applications, community applications, and third-party service integrations.|
+|Fall 2016|**Adjunct Faculty (Part-Time), Computer, Systems And Applications**<br />Sam's Teach Yourself ASP.NET 4 in 24 Hours (ISBN-13: 978-0672333057) augmented with more industry-relevant curriculum.|
+|Fall 2015|**Adjunct Faculty (Part-Time), Computer, Systems And Applications**<br />Beginning ASP.NET in C# and VB (ISBN - 13: 978 - 1118846773) augmented with more industry-relevant curriculum.|
+|Jun 2011 - Sep 2013|**Lead Developer, Web Applications**<br />Develop custom web applications using LAMP stack Develop and support integrations with ad exchange, marketing automation, content management, publishing, event and newsletter management, payment processing, and customer relationship management; Linux server management, cloud services management, and web application firewall management; Remote desktop support.|
+|Aug 2008 - Aug 2010|**Web Design Teacher, Career & Technical Education**<br />Business Math; Web Design and Development; Career Preparation; Student Organization (Future Business Leaders of America).|
+|2004, 2005 - 2008|**Technology Specialist**<br />Account provisioning and management in Active Directory District website development and server rebuild; Security, networking, and content filtering; Email management and spam filtering; Desktop and printer support, imaging, and inventory.|
+
 ## Training History
 |Year|Module|
 |-|-|
