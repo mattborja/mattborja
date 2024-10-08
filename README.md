@@ -82,7 +82,8 @@ The following PGP fingerprints belong to the owner of this repository: **Matt Bo
 
 | Fingerprint                                         | Created    | Status     |
 |-----------------------------------------------------|------------|------------|
-| `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38` | 2021-12-29 | **Active** |
+| `99BB 608E 3038 0C45 1952 D6BB A1C7 E813 F160 A407` | 2024-10-07 | **Active** |
+| `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38` | 2021-12-29 | **Suspended** |
 | `6FDD 7A12 197C 04F8 F510 585C 9DB9 CDDC 7708 8F26` | 2022-04-18 | Inactive   |
 | `3371 63B2 51AD 534D 6E30 8DC4 BC60 808C E2A8 20F6` | 2022-04-18 | Revoked    |
 | `4105 C4E5 774F 401B 1824 6910 FED8 1E8C 4D67 3B96` | 2022-04-18 | Revoked    |
