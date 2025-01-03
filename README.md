@@ -80,11 +80,3 @@ The following PGP fingerprints belong to the owner of this repository: **Matt Bo
 | `F88A 7363 03AB F22B 60F4 A9C1 C892 093A 3570 183E` | 2003-08-28 | Revoked    |
 
 Asserted by cryptographically signed commit: [be02acb@master](https://github.com/mattborja/mattborja/commit/be02acb5fa564d57e5bad40be1518c796d79e742) ([learn more](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)).
-
-### Download Sources
-- [pgp.re](https://pgp.re/pks/lookup?search=0xF30FF4FC936584574EE3251833688C2EDC08CD38&fingerprint=on&op=index)
-- [keybase.io](https://keybase.io/mattborja/pgp_keys.asc?fingerprint=f30ff4fc936584574ee3251833688c2edc08cd38) ([profile](https://keybase.io/mattborja))
-- [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/F30FF4FC936584574EE3251833688C2EDC08CD38)
-- [keyserver.ubuntu.com](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
-- [keyserver.pgp.com](https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x33688C2EDC08CD38)
-- [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=get&search=0xf30ff4fc936584574ee3251833688c2edc08cd38)
