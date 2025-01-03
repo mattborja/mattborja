@@ -1,6 +1,25 @@
 ## About
 **Sr. Software Engineer** and creative with an emphasis on simple elegance and enterprise architecture. Applied industry experience in higher education since 2013.
 
+## Certifications
+|Year|Module|
+|-|-|
+| 2025 | [GIAC Cloud Security Automation (GCSA)](https://www.credly.com/badges/c0ee1538-53dd-43a0-bf9e-7724e374ff43/public_url)
+
+## Training History
+|Year|Module|
+|-|-|
+| 2024 | [SEC540: Cloud Security and DevSecOps Automation™ (SANS Institute)](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/)
+| 2022 | [Delegation Skills for Busy Leaders ("Why & How")](https://www.linkedin.com/pulse/delegation-skills-busy-leaders-why-how-michael-lin/) |
+| 2021 | [Salesforce Trailhead](https://trailblazer.me/id/mattborja) |
+| 2020 | [Supervision: Core Competencies: Meeting the Needs of Today's Employees](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Team Leadership: Leading Teams](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Coaching Essentials: Partnering for Performance](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2020 | [Conflict: Self-Management](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
+| 2019 | [Azure DevOps for Project Managers](https://www.udemy.com/course/azure-devops-for-project-managers-business-analysts/) |
+| 2014 | [Building an End-to-End Web Application with ASP.NET MVC5 (C#), EF Code First, HTML5 and jQuery](https://www.interfacett.com/training/dev500-building-an-html5-end-to-end-web-application-with-asp-net-mvc5-ef-code-first-and-jquery/) |
+| 2014 | [SEC542: Web App Penetration Testing and Ethical Hacking™ (SANS Institute)](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
+
 ## Industry Experience
 |Area|Technologies|
 |-|-|
@@ -26,25 +45,6 @@
 |Jun 2011 - Sep 2013|**Lead Developer, Web Applications**<br />Develop custom web applications using LAMP stack Develop and support integrations with ad exchange, marketing automation, content management, publishing, event and newsletter management, payment processing, and customer relationship management; Linux server management, cloud services management, and web application firewall management; Remote desktop support.|
 |Aug 2008 - Aug 2010|**Web Design Teacher, Career & Technical Education**<br />Business Math; Web Design and Development; Career Preparation; Student Organization (Future Business Leaders of America).|
 |2004, 2005 - 2008|**Technology Specialist**<br />Account provisioning and management in Active Directory District website development and server rebuild; Security, networking, and content filtering; Email management and spam filtering; Desktop and printer support, imaging, and inventory.|
-
-## Certifications
-|Year|Module|
-|-|-|
-| 2025 | [GIAC Cloud Security Automation (GCSA)](https://www.credly.com/badges/c0ee1538-53dd-43a0-bf9e-7724e374ff43/public_url)
-
-## Training History
-|Year|Module|
-|-|-|
-| 2024 | [SEC540: Cloud Security and DevSecOps Automation™ (SANS Institute)](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/)
-| 2022 | [Delegation Skills for Busy Leaders ("Why & How")](https://www.linkedin.com/pulse/delegation-skills-busy-leaders-why-how-michael-lin/) |
-| 2021 | [Salesforce Trailhead](https://trailblazer.me/id/mattborja) |
-| 2020 | [Supervision: Core Competencies: Meeting the Needs of Today's Employees](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
-| 2020 | [Team Leadership: Leading Teams](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
-| 2020 | [Coaching Essentials: Partnering for Performance](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
-| 2020 | [Conflict: Self-Management](https://trainingandevents.employerscouncil.org/catalog/?category=Leadership) |
-| 2019 | [Azure DevOps for Project Managers](https://www.udemy.com/course/azure-devops-for-project-managers-business-analysts/) |
-| 2014 | [Building an End-to-End Web Application with ASP.NET MVC5 (C#), EF Code First, HTML5 and jQuery](https://www.interfacett.com/training/dev500-building-an-html5-end-to-end-web-application-with-asp-net-mvc5-ef-code-first-and-jquery/) |
-| 2014 | [SEC542: Web App Penetration Testing and Ethical Hacking™ (SANS Institute)](https://www.sans.org/cyber-security-courses/web-app-penetration-testing-ethical-hacking/) |
 
 ## Testimonials
 |Year|Summary of Work|
