@@ -1,17 +1,5 @@
 ## About
-**Sr. Software Engineer** and creative with an emphasis on simple elegance and enterprise architecture. Applied industry experience (Education) since 2004.
-
-I look for accountability, ask lots of questions, and pursue the strategic involvement of collaborative individuals: to innovate and create long-lasting business solutions of exemplary quality.
-
-## Interests
-- Data-driven business applications and software architecture
-- Information security, penetration testing, and cryptography
-- Infrastructure orchestration and automation
-- Ivy Lee Method (productivity)
-- Horizontal scalability and high availability
-- Project lead and formal documentation
-- Collaboration and camaraderie
-- Contributing to open source projects
+**Sr. Software Engineer** and creative with an emphasis on simple elegance and enterprise architecture. Applied industry experience in higher education since 2013.
 
 ## Industry Experience
 |Area|Technologies|
