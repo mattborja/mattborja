@@ -1,5 +1,5 @@
 ## About
-**Sr. Software Engineer** and creative with an emphasis on simple elegance and enterprise architecture. Applied industry experience in higher education since 2013.
+Senior Software Engineer and Solution Architect specializing in identity verification, cloud security, and scalable systems. Efforts focus on designing secure, innovative solutions that bridge complex business requirements with technical excellence. Leadership spans high-availability infrastructure projects, research and development, identity and access management, and advanced DevOps practices, driving robust and scalable outcomes for modern digital challenges.
 
 ## Certifications
 |Year|Module|
