@@ -71,10 +71,10 @@ The following PGP fingerprints belong to the owner of this repository: **Matt Bo
 
 | Fingerprint                                         | Created    | Status     |
 |-----------------------------------------------------|------------|------------|
-| [`0398 B8E1 0560 7E7B A675 7ACF C891 9DBC B39E 6F72`](https://github.com/mattborja.gpg) | 2024-10-07 | **Active (Latest).** Certified with non-revocable signatures by: A1C7E813F160A407, 33688C2EDC08CD38 |
+| [`0398 B8E1 0560 7E7B A675 7ACF C891 9DBC B39E 6F72`](https://github.com/mattborja.gpg) | 2024-10-07 | **Active (Latest).** Certified with non-revocable signatures by: A1C7E813F160A407, 33688C2EDC08CD38, 9DB9CDDC77088F26 |
 | [`99BB 608E 3038 0C45 1952 D6BB A1C7 E813 F160 A407`](https://github.com/mattborja.gpg) | 2024-10-07 | **Active (Current).** Certified by: 33688C2EDC08CD38 |
 | `F30F F4FC 9365 8457 4EE3 2518 3368 8C2E DC08 CD38` | 2021-12-29 | **Superseded** |
-| `6FDD 7A12 197C 04F8 F510 585C 9DB9 CDDC 7708 8F26` | 2022-04-18 | Discontinued   |
+| `6FDD 7A12 197C 04F8 F510 585C 9DB9 CDDC 7708 8F26` | 2022-04-18 | **Expired**   |
 | `3371 63B2 51AD 534D 6E30 8DC4 BC60 808C E2A8 20F6` | 2022-04-18 | Revoked    |
 | `4105 C4E5 774F 401B 1824 6910 FED8 1E8C 4D67 3B96` | 2022-04-18 | Revoked    |
 | `8ED0 E383 176C FAE7 8899 0F29 22E7 1A76 0A44 E2D6` | 2012-03-07 | Revoked    |
