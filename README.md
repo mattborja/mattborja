@@ -1,10 +1,62 @@
+# Matt Borja
+**Senior Software Engineer & Solution Architect**  
+**GIAC Advisory Board Member**
+
+🌐 [mattborja.dev](https://mattborja.dev) • 🔬 [ORCiD](https://orcid.org/0009-0008-5528-9362) • 💼 [LinkedIn](https://www.linkedin.com/in/mattborja) • 📄 [Full CV](https://www.dropbox.com/scl/fi/yw9752o1poroh12qs0i1v/Matt-Borja-CV-Latest.pdf?rlkey=1g21xvk734pflamnel1sflh98&st=tnapnqmj&dl=0)
+
 ## About
-Senior Software Engineer and Solution Architect specializing in identity verification, cloud security, and scalable systems. Efforts focus on designing secure, innovative solutions that bridge complex business requirements with technical excellence. Leadership spans high-availability infrastructure projects, research and development, identity and access management, and advanced DevOps practices, driving robust and scalable outcomes for modern digital challenges.
+Senior Software Engineer and Solution Architect with extensive expertise in **identity verification, cloud security, and scalable systems**. Recognized industry expert and **GIAC Advisory Board Member** specializing in identity assurance, digital signatures, and Web of Trust principles aligned with **NIST SP 800-63A**. 
+
+Leadership spans high-availability infrastructure projects, research and development, identity and access management (IAM), and advanced DevOps practices. Proven expertise in designing secure, innovative solutions including Single Sign-On (SSO), SAML 2.0 identity providers, and systems integrations (SIS, Salesforce, Canvas, Twilio).
+
+**Current Focus:** Cloud security automation, identity assurance, and securing the software supply chain.
+
+## Featured Project
+
+### [SIG3](https://sig3.dev) - High Identity Assurance Registry
+[![Website](https://img.shields.io/badge/Website-sig3.dev-blue)](https://sig3.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-mattborja%2Fsig3-black?logo=github)](https://github.com/mattborja/sig3)
+
+A Rapid Identity Assurance Level (RIAL) framework producing the highest level assurance for signing keys through a rigorously vetted, continuously delivered registry of identity proofs. Aligned with NIST SP 800-63A Digital Identity Guidelines.
+
+**Research Areas:** Identity Assurance • Digital Identities • Digital Signatures • Web of Trust • NIST SP 800-63A
+
+**Related Work:**
+- [Industry Talk: Web of Trust - Securing the Software Supply Chain](https://archive.org/details/web-of-trust-2025) (Center for the Future, 2025)
+
+## Recognition & Advisory Roles
+
+### 2025
+
+**🎖️ [GIAC Advisory Board Member](https://www.credly.com/badges/7fd2a431-1ad6-471d-8fb6-8bedaae74355)**  
+SANS Institute | *Invited based on exceptional GCSA certification exam performance*
+
+**🛡️ [REN-ISAC Member](https://ren-isac.net/)**  
+Research and Education Networks Information Sharing and Analysis Center | *Sponsored by Higher Education CISO (May 2025)*
+
+**🔐 [Security Researcher Hall of Fame](https://www.ellucian.com/security-researcher-hall-of-fame)**  
+Ellucian | *Responsible disclosure of high severity security findings prompting immediate remediation*
+
+**🎤 Industry Speaker**  
+Center for the Future | [Web of Trust: Securing the Software Supply Chain](https://archive.org/details/web-of-trust-2025)
 
 ## Certifications
-|Year|Module|
-|-|-|
-| 2025 | [GIAC Cloud Security Automation (GCSA)](https://www.credly.com/badges/c0ee1538-53dd-43a0-bf9e-7724e374ff43/public_url)
+
+|Year|Credential|Issuer|Verification|
+|-|-|-|-|
+| 2025 | GIAC Cloud Security Automation (GCSA) | SANS Institute (ANAB-accredited) | [🔗 Credly Badge](https://www.credly.com/badges/c0ee1538-53dd-43a0-bf9e-7724e374ff43/public_url) |
+| 2025 | GIAC Advisory Board Member | SANS Institute | [🔗 Credly Badge](https://www.credly.com/badges/7fd2a431-1ad6-471d-8fb6-8bedaae74355) |
+
+## Research Areas & Expertise
+
+**Security & Identity:**  
+Identity Assurance • Digital Identities • Digital Signatures • Web of Trust • NIST SP 800-63A • Single Sign-On (SSO/SAML) • Applied Cryptography • Web Application Security
+
+**Cloud & DevOps:**  
+Cloud Security Automation • DevSecOps • CI/CD • Infrastructure as Code • High Availability Architecture • Software Supply Chain Security
+
+**Development & Integration:**  
+Software Development Lifecycle • Systems Integrations (SIS, Salesforce, Canvas, Twilio) • Data Architecture • Project Management
 
 ## Training History
 |Year|Module|
