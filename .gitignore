@@ -1,6 +1,8 @@
-# Deploy keys
+# Keys
 deploy_key
 deploy_key.pub
+signer_key
+signer_key.pub
 allowed_signers
 
 # Local utilities and source documents
