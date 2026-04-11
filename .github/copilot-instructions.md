@@ -51,9 +51,15 @@ chore(repo): add deploy key to .gitignore
 
 ### Deployment
 
+- **NEVER push to remote without explicit user authorization.**
 - **Do NOT force push to `master`** — it triggers a GitHub Pages deployment.
-- Always verify changes locally before committing.
-- The `deploy_key` and `deploy_key.pub` files are git-ignored and must never be committed.
+- Always verify correctness of implementation before committing completed work.
+- The `deploy_key`, `deploy_key.pub`, and `allowed_signers` files are git-ignored and must never be committed.
+
+### Commits
+
+- All commits must be signed (SSH signing is configured locally).
+- Only commit completed, verified work.
 
 ### Website (index.html)
 

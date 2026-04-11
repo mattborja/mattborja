@@ -1,6 +1,7 @@
 # Deploy keys
 deploy_key
 deploy_key.pub
+allowed_signers
 
 # Logs
 logs

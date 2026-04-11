@@ -32,7 +32,7 @@
   }
 
   .card {
-    width: 380px;
+    width: 420px;
     background: var(--surface);
     border: 1px solid var(--border2);
     border-radius: 16px;
@@ -167,9 +167,9 @@
   }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
-  .links { display: flex; gap: 8px; margin-top: 14px; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
   .link-btn {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
