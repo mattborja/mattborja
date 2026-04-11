@@ -173,6 +173,10 @@
     caret-color: var(--accent);
     padding: 0;
   }
+  #cmd::placeholder {
+    color: var(--muted);
+    opacity: 1;
+  }
   .cursor {
     display: inline-block;
     width: 7px; height: 1em;
@@ -246,11 +250,9 @@
       <span class="o">Security first. Ship with intent.</span>
       <span class="o">Learn everything. Depend on nothing.</span>
       <span class="d">&nbsp;</span>
-      <span class="o" style="color:var(--muted)">Type ? for available commands.</span>
-      <span class="d">&nbsp;</span>
       <div class="input-line">
         <span class="p">❯</span>
-        <input id="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus />
+        <input id="cmd" type="text" placeholder="Type ? for available commands." autocomplete="off" autocapitalize="off" spellcheck="false" autofocus />
       </div>
     </div>
 
@@ -432,15 +434,6 @@
   function cmdClear(){
     var inputLine = term.querySelector('.input-line');
     while(term.firstChild !== inputLine) term.removeChild(term.firstChild);
-    var hint = document.createElement('span');
-    hint.className = 'o';
-    hint.style.color = 'var(--muted)';
-    hint.textContent = 'Type ? for available commands.';
-    term.insertBefore(hint, inputLine);
-    var spacer = document.createElement('span');
-    spacer.className = 'd';
-    spacer.innerHTML = '&nbsp;';
-    term.insertBefore(spacer, inputLine);
   }
 })();
 </script>
