@@ -246,15 +246,7 @@
       <span class="o">Security first. Ship with intent.</span>
       <span class="o">Learn everything. Depend on nothing.</span>
       <span class="d">&nbsp;</span>
-      <div class="tl"><span class="p">❯</span><span class="c">help</span></div>
-      <span class="o">Available commands:</span>
-      <span class="o">&nbsp;</span>
-      <span class="o">  about       — Summary &amp; expertise</span>
-      <span class="o">  highlights  — Career highlights</span>
-      <span class="o">  experience  — Work history</span>
-      <span class="o">  education   — Training &amp; certifications</span>
-      <span class="o">  links       — Social &amp; professional links</span>
-      <span class="o">  clear       — Clear terminal</span>
+      <span class="o" style="color:var(--muted)">Type ? for available commands.</span>
       <span class="d">&nbsp;</span>
       <div class="input-line">
         <span class="p">❯</span>
@@ -343,7 +335,7 @@
     var command = parts[0].toLowerCase();
     var arg = parts.slice(1).join(' ').toLowerCase();
 
-    if(command==='help') cmdHelp();
+    if(command==='help'||command==='?') cmdHelp();
     else if(command==='whoami') cmdWhoami();
     else if(command==='about') cmdAbout();
     else if(command==='highlights') cmdHighlights(arg);
