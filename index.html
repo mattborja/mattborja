@@ -152,7 +152,7 @@
     font-family: 'JetBrains Mono', monospace;
     font-size: 11.5px;
     line-height: 1.85;
-    max-height: 320px;
+    max-height: 480px;
     overflow-y: auto;
     cursor: text;
   }
@@ -344,18 +344,20 @@
     else if(command==='links') cmdLinks();
     else if(command==='clear') cmdClear();
     else if(command==='cat'&&arg==='principles.txt') cmdPrinciples();
-    else out(['command not found: '+esc(raw), 'Type "help" for available commands.']);
+    else out(['command not found: '+esc(raw), 'Type ? for available commands.']);
   }
 
   function cmdHelp(){
     out([
       'Available commands:','',
-      '  about       \u2014 Summary & expertise',
-      '  highlights  \u2014 Career highlights (or: highlights 2025)',
-      '  experience  \u2014 Work history',
-      '  education   \u2014 Training & certifications',
-      '  links       \u2014 Social & professional links',
-      '  clear       \u2014 Clear terminal'
+      '  whoami             \u2014 Who am I?',
+      '  cat principles.txt \u2014 Guiding principles',
+      '  about              \u2014 Summary & expertise',
+      '  highlights [year]  \u2014 Career highlights',
+      '  experience         \u2014 Work history',
+      '  education          \u2014 Training & certifications',
+      '  links              \u2014 Social & professional links',
+      '  clear              \u2014 Clear terminal'
     ]);
   }
 
@@ -430,6 +432,15 @@
   function cmdClear(){
     var inputLine = term.querySelector('.input-line');
     while(term.firstChild !== inputLine) term.removeChild(term.firstChild);
+    var hint = document.createElement('span');
+    hint.className = 'o';
+    hint.style.color = 'var(--muted)';
+    hint.textContent = 'Type ? for available commands.';
+    term.insertBefore(hint, inputLine);
+    var spacer = document.createElement('span');
+    spacer.className = 'd';
+    spacer.innerHTML = '&nbsp;';
+    term.insertBefore(spacer, inputLine);
   }
 })();
 </script>
