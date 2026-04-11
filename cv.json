@@ -1,0 +1,123 @@
+{
+  "name": "Matt Borja",
+  "title": "Senior Software Engineer",
+  "location": "Arizona",
+  "summary": "Dynamic Software Engineer with extensive expertise in software development, security, and systems architecture, specializing in supervisory and managerial roles since 2019.",
+  "principles": [
+    "Security first. Ship with intent.",
+    "Learn everything. Depend on nothing."
+  ],
+  "expertise": [
+    "Software Development Lifecycle",
+    "Continuous Integration & Delivery",
+    "Agile & Project Management",
+    "Change & Release Management",
+    "Data Architecture & Management",
+    "Systems Integrations",
+    "Single Sign-On",
+    "DevOps & Infrastructure",
+    "Cybersecurity & Data Privacy",
+    "Documentation",
+    "Contract Optimization",
+    "Curriculum Development & Training"
+  ],
+  "highlights": [
+    { "year": 2025, "text": "Sponsored by Higher Education CISO for REN-ISAC membership" },
+    { "year": 2025, "text": "Led industry talk on building trust and securing the software supply chain using Web of Trust (archive.org/details/web-of-trust-2025)" },
+    { "year": 2025, "text": "Entered into Ellucian's Security Researcher Hall of Fame for responsible disclosure of high severity findings" },
+    { "year": 2025, "text": "Earned GIAC Cloud Security Automation (GCSA) certification; invited to GIAC Advisory Board" },
+    { "year": 2024, "text": "Designed and built a custom, business-oriented Salesforce Data Loader for Education Data Architecture at scale" },
+    { "year": 2024, "text": "Designed a custom data lake solution to enhance data management between provider and consumer systems" },
+    { "year": 2023, "text": "Streamlined proprietary NuGet packages distribution through change and release management" },
+    { "year": 2022, "text": "Contributed expert knowledge during Higher Education Library Special Lecture Series" },
+    { "year": 2021, "text": "Improved system reliability via high availability infrastructure and SAML identity services migration (2021-2023)" },
+    { "year": 2020, "text": "Enabled institution to launch SMS recruitment and engagement campaigns at scale using Twilio Messaging API" },
+    { "year": 2020, "text": "Facilitated local city IT department's first successful deployment of a SAML 2.0 Identity Provider" },
+    { "year": 2019, "text": "Recovered over $40,000 from a vendor breach and independently fulfilled website project requirements" },
+    { "year": 2019, "text": "Enhanced user experience by launching a mobile-friendly College Portal — improved login times by 95%" },
+    { "year": 2018, "text": "Replaced CAS Service Management WebApp with custom solution using Azure Repos and Azure Pipelines" },
+    { "year": 2017, "text": "Achieved institution's first successful deployment of a clustered SAML 2.0 Identity Provider" },
+    { "year": 2017, "text": "Pioneered DevOps adoption using Puppet Enterprise for efficient management across environments" },
+    { "year": 2016, "text": "Received DoD Challenge Coin for identifying vulnerabilities in Hack the Pentagon bug bounty program" },
+    { "year": 2016, "text": "Implemented FIPS-197 encryption in Arduino C for academic purposes, adhering to AES standards" },
+    { "year": 2015, "text": "Accelerated SIS integration delivery to Canvas, setting new standard for course and enrollment data" },
+    { "year": 2013, "text": "Identified and patched critical flaw in third-party identity provider; became institution's principal SSO manager" },
+    { "year": 2005, "text": "Streamlined computer lab setups including imaging and inventory management" },
+    { "year": 2004, "text": "Automated import of over 1,000 student accounts into Active Directory using Visual Basic" }
+  ],
+  "experience": [
+    {
+      "role": "Manager, Web Services",
+      "org": "Higher Education — Arizona",
+      "period": "2021 – Present",
+      "summary": "Orchestrated adoption of SOPs and CI/CD for .NET applications. Designed career progression plans and established a Team Charter for web services.",
+      "contributions": [
+        "Enhanced .NET application performance through CI/CD implementation",
+        "Instituted comprehensive progression plans for team development"
+      ]
+    },
+    {
+      "role": "Supervisor, Web Services",
+      "org": "Higher Education — Arizona",
+      "period": "2019 – 2021",
+      "summary": "Implemented Change Management and Project Management frameworks. Led core development team formation and mentored staff across levels.",
+      "contributions": [
+        "Deployed Change Management framework, reducing project delays",
+        "Mentored core team of three; advised employees across Director level"
+      ]
+    },
+    {
+      "role": "Adjunct Faculty / Developer, Web Applications",
+      "org": "Higher Education — Arizona",
+      "period": "2013 – 2019",
+      "summary": "Managed ASP.NET curriculum with industry-relevant content. Developed high availability environments with Puppet Enterprise. Led migration from legacy to modern platforms.",
+      "contributions": [
+        "Revised course content improving student practical application scores",
+        "Developed HA environment reducing downtime",
+        "Recognized by college leadership for outstanding system improvements"
+      ]
+    },
+    {
+      "role": "Lead Developer, Web Applications",
+      "org": "Bisnow Media (Remote, Washington D.C.)",
+      "period": "2010 – 2013",
+      "summary": null,
+      "contributions": []
+    },
+    {
+      "role": "Web Design Teacher, Career & Technical Education",
+      "org": "Unified School District #51",
+      "period": "2008 – 2010",
+      "summary": null,
+      "contributions": []
+    },
+    {
+      "role": "Technology Specialist",
+      "org": "Unified School District #51",
+      "period": "2004 – 2008",
+      "summary": null,
+      "contributions": []
+    }
+  ],
+  "education": [
+    { "year": 2024, "text": "SEC540: Cloud Native Security and DevSecOps Automation, SANS Institute" },
+    { "year": 2022, "text": "Delegation Skills for Busy Leaders, Employer's Council" },
+    { "year": 2021, "text": "Salesforce Trailhead" },
+    { "year": 2020, "text": "Supervision & Team Leadership Series, Employer's Council" },
+    { "year": 2019, "text": "Azure DevOps for Project Managers, Udemy" },
+    { "year": 2016, "text": "SEC542: Web App Penetration Testing and Ethical Hacking, SANS Institute" },
+    { "year": 2014, "text": "DEV500: Building an End-to-End Web Application with ASP.NET MVC5, Interface Technical Institute" },
+    { "year": 2008, "text": "Arizona Educator Proficiency Assessment (#91 - Professional Knowledge)" },
+    { "year": 2004, "text": "High School Diploma" }
+  ],
+  "certifications": [
+    "GIAC Cloud Security Automation (GCSA), 2025",
+    "GIAC Advisory Board Member"
+  ],
+  "links": {
+    "linkedin": "https://linkedin.com/in/mattborja",
+    "github": "https://github.com/mattborja",
+    "orcid": "https://orcid.org/0009-0008-5528-9362",
+    "website": "https://mattborja.dev"
+  }
+}

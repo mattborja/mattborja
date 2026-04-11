@@ -152,12 +152,27 @@
     font-family: 'JetBrains Mono', monospace;
     font-size: 11.5px;
     line-height: 1.85;
+    max-height: 320px;
+    overflow-y: auto;
+    cursor: text;
   }
   .tl { display: flex; gap: 6px; align-items: center; }
   .p  { color: var(--green); user-select: none; }
   .c  { color: #e6edf3; }
   .o  { color: var(--accent); padding-left: 14px; display: block; }
   .d  { color: var(--muted); }
+  .input-line { display: flex; gap: 6px; align-items: center; }
+  .input-line .p { flex-shrink: 0; }
+  #cmd {
+    background: none;
+    border: none;
+    color: #e6edf3;
+    font: inherit;
+    outline: none;
+    flex: 1;
+    caret-color: var(--accent);
+    padding: 0;
+  }
   .cursor {
     display: inline-block;
     width: 7px; height: 1em;
@@ -223,7 +238,7 @@
 
     <hr/>
 
-    <div class="terminal">
+    <div class="terminal" id="term">
       <div class="tl"><span class="p">❯</span><span class="c">whoami</span></div>
       <span class="o">matt_borja --role="Senior SWE"</span>
       <span class="d">&nbsp;</span>
@@ -231,7 +246,20 @@
       <span class="o">Security first. Ship with intent.</span>
       <span class="o">Learn everything. Depend on nothing.</span>
       <span class="d">&nbsp;</span>
-      <div class="tl"><span class="p">❯</span><span class="cursor"></span></div>
+      <div class="tl"><span class="p">❯</span><span class="c">help</span></div>
+      <span class="o">Available commands:</span>
+      <span class="o">&nbsp;</span>
+      <span class="o">  about       — Summary &amp; expertise</span>
+      <span class="o">  highlights  — Career highlights</span>
+      <span class="o">  experience  — Work history</span>
+      <span class="o">  education   — Training &amp; certifications</span>
+      <span class="o">  links       — Social &amp; professional links</span>
+      <span class="o">  clear       — Clear terminal</span>
+      <span class="d">&nbsp;</span>
+      <div class="input-line">
+        <span class="p">❯</span>
+        <input id="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus />
+      </div>
     </div>
 
     <div class="links">
@@ -254,5 +282,164 @@
     </div>
   </div>
 </div>
+<script>
+(function(){
+  var cv = null;
+  fetch('cv.json').then(function(r){return r.json()}).then(function(d){cv=d}).catch(function(){});
+
+  var term = document.getElementById('term');
+  var cmd = document.getElementById('cmd');
+  var history = [];
+  var histIdx = -1;
+
+  term.addEventListener('click', function(){ cmd.focus(); });
+
+  cmd.addEventListener('keydown', function(e){
+    if(e.key==='Enter'){
+      var val = cmd.value.trim();
+      if(val) history.unshift(val);
+      histIdx = -1;
+      exec(val);
+      cmd.value = '';
+    } else if(e.key==='ArrowUp'){
+      e.preventDefault();
+      if(histIdx < history.length-1){ histIdx++; cmd.value = history[histIdx]; }
+    } else if(e.key==='ArrowDown'){
+      e.preventDefault();
+      if(histIdx > 0){ histIdx--; cmd.value = history[histIdx]; }
+      else { histIdx=-1; cmd.value=''; }
+    }
+  });
+
+  function out(lines){
+    var inputLine = term.querySelector('.input-line');
+    lines.forEach(function(l){
+      var s = document.createElement('span');
+      s.className = 'o';
+      s.innerHTML = l || '&nbsp;';
+      term.insertBefore(s, inputLine);
+    });
+    var spacer = document.createElement('span');
+    spacer.className = 'd';
+    spacer.innerHTML = '&nbsp;';
+    term.insertBefore(spacer, inputLine);
+    term.scrollTop = term.scrollHeight;
+  }
+
+  function echo(text){
+    var inputLine = term.querySelector('.input-line');
+    var div = document.createElement('div');
+    div.className = 'tl';
+    div.innerHTML = '<span class="p">❯</span><span class="c">'+esc(text)+'</span>';
+    term.insertBefore(div, inputLine);
+  }
+
+  function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+
+  function exec(raw){
+    echo(raw);
+    if(!raw){ term.scrollTop=term.scrollHeight; return; }
+    var parts = raw.split(/\s+/);
+    var command = parts[0].toLowerCase();
+    var arg = parts.slice(1).join(' ').toLowerCase();
+
+    if(command==='help') cmdHelp();
+    else if(command==='whoami') cmdWhoami();
+    else if(command==='about') cmdAbout();
+    else if(command==='highlights') cmdHighlights(arg);
+    else if(command==='experience'||command==='exp') cmdExperience();
+    else if(command==='education'||command==='edu') cmdEducation();
+    else if(command==='links') cmdLinks();
+    else if(command==='clear') cmdClear();
+    else if(command==='cat'&&arg==='principles.txt') cmdPrinciples();
+    else out(['command not found: '+esc(raw), 'Type "help" for available commands.']);
+  }
+
+  function cmdHelp(){
+    out([
+      'Available commands:','',
+      '  about       \u2014 Summary & expertise',
+      '  highlights  \u2014 Career highlights (or: highlights 2025)',
+      '  experience  \u2014 Work history',
+      '  education   \u2014 Training & certifications',
+      '  links       \u2014 Social & professional links',
+      '  clear       \u2014 Clear terminal'
+    ]);
+  }
+
+  function cmdWhoami(){
+    if(!cv) return out(['matt_borja --role="Senior SWE"']);
+    out(['matt_borja --role="'+esc(cv.title)+'"']);
+  }
+
+  function cmdPrinciples(){
+    if(!cv) return out(['Security first. Ship with intent.','Learn everything. Depend on nothing.']);
+    cv.principles.forEach(function(p){ out([esc(p)]); });
+  }
+
+  function cmdAbout(){
+    if(!cv) return out(['Loading...']);
+    var lines = [esc(cv.summary),'','Expertise:'];
+    cv.expertise.forEach(function(e){ lines.push('  \u2022 '+esc(e)); });
+    out(lines);
+  }
+
+  function cmdHighlights(filter){
+    if(!cv) return out(['Loading...']);
+    var items = cv.highlights;
+    if(filter){
+      var year = parseInt(filter);
+      if(!isNaN(year)) items = items.filter(function(h){return h.year===year;});
+      else items = items.filter(function(h){return h.text.toLowerCase().indexOf(filter)!==-1;});
+    }
+    if(!items.length) return out(['No highlights found for: '+esc(filter)]);
+    var lines = [];
+    items.forEach(function(h){ lines.push('<span style="color:var(--green)">'+h.year+'</span>  '+esc(h.text)); });
+    out(lines);
+  }
+
+  function cmdExperience(){
+    if(!cv) return out(['Loading...']);
+    var lines = [];
+    cv.experience.forEach(function(e){
+      lines.push('<span style="color:var(--green)">'+esc(e.role)+'</span>');
+      lines.push(esc(e.org)+' \u2022 '+esc(e.period));
+      if(e.summary) lines.push(esc(e.summary));
+      if(e.contributions.length){
+        e.contributions.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
+      }
+      lines.push('');
+    });
+    out(lines);
+  }
+
+  function cmdEducation(){
+    if(!cv) return out(['Loading...']);
+    var lines = [];
+    if(cv.certifications && cv.certifications.length){
+      lines.push('Certifications:');
+      cv.certifications.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
+      lines.push('');
+    }
+    lines.push('Training & Education:');
+    cv.education.forEach(function(e){ lines.push('  <span style="color:var(--green)">'+e.year+'</span>  '+esc(e.text)); });
+    out(lines);
+  }
+
+  function cmdLinks(){
+    if(!cv) return out(['Loading...']);
+    var lines = [];
+    Object.keys(cv.links).forEach(function(k){
+      lines.push('  '+k.padEnd(10)+' <a href="'+esc(cv.links[k])+'" target="_blank" style="color:var(--accent)">'+esc(cv.links[k])+'</a>');
+    });
+    out(lines);
+  }
+
+  function cmdClear(){
+    var inputLine = term.querySelector('.input-line');
+    while(term.firstChild !== inputLine) term.removeChild(term.firstChild);
+  }
+})();
+</script>
 </body>
 </html>

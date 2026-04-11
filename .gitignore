@@ -3,6 +3,10 @@ deploy_key
 deploy_key.pub
 allowed_signers
 
+# Local utilities and source documents
+find-cname.sh
+*.docx
+
 # Logs
 logs
 *.log
