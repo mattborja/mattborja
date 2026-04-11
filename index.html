@@ -177,6 +177,15 @@
     color: var(--muted);
     opacity: 1;
   }
+  .pager-status {
+    display: block;
+    background: #e6edf3;
+    color: #010409;
+    padding: 0 4px;
+    position: sticky;
+    bottom: 0;
+    font-weight: 500;
+  }
   .cursor {
     display: inline-block;
     width: 7px; height: 1em;
@@ -285,10 +294,14 @@
   var cmd = document.getElementById('cmd');
   var history = [];
   var histIdx = -1;
+  var pagerLines = null;
+  var pagerActive = false;
+  var pagerAnchor = null;
 
-  term.addEventListener('click', function(){ cmd.focus(); });
+  term.addEventListener('click', function(){ if(!pagerActive) cmd.focus(); });
 
   cmd.addEventListener('keydown', function(e){
+    if(pagerActive) return;
     if(e.key==='Enter'){
       var val = cmd.value.trim();
       if(val) history.unshift(val);
@@ -330,6 +343,86 @@
 
   function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
 
+  function probeLineHeight(){
+    var probe=document.createElement('span');
+    probe.className='o'; probe.innerHTML='x'; probe.style.visibility='hidden';
+    term.appendChild(probe);
+    var lh=probe.offsetHeight||21;
+    term.removeChild(probe);
+    return lh;
+  }
+
+  function paged(lines){
+    var lh=probeLineHeight();
+    var ps=Math.max(1,Math.floor(term.clientHeight/lh)-3);
+    if(lines.length<=ps){ out(lines); return; }
+    pagerLines=lines; pagerActive=true;
+    cmd.blur();
+    var inputLine=term.querySelector('.input-line');
+    inputLine.style.display='none';
+    var anchor=document.createElement('span');
+    anchor.className='pager-anchor';
+    term.insertBefore(anchor,inputLine);
+    pagerAnchor=anchor;
+    lines.forEach(function(l){
+      var s=document.createElement('span');
+      s.className='o'; s.innerHTML=l||'&nbsp;';
+      term.insertBefore(s,inputLine);
+    });
+    var bar=document.createElement('div');
+    bar.className='pager-status';
+    term.insertBefore(bar,inputLine);
+    scrollToAnchor();
+    pagerUpdateStatus();
+  }
+
+  function scrollToAnchor(){
+    var ar=pagerAnchor.getBoundingClientRect();
+    var tr=term.getBoundingClientRect();
+    term.scrollTop+=ar.top-tr.top;
+  }
+
+  function pagerUpdateStatus(){
+    var bar=term.querySelector('.pager-status');
+    if(!bar) return;
+    var atEnd=term.scrollTop+term.clientHeight>=term.scrollHeight-2;
+    bar.textContent=atEnd?'(END) q to exit':': ↑↓ - line, Space - page, q - quit';
+  }
+
+  function pagerScroll(px){
+    term.scrollBy(0,px);
+    pagerUpdateStatus();
+  }
+
+  term.addEventListener('scroll',function(){
+    if(pagerActive) pagerUpdateStatus();
+  });
+
+  function pagerQuit(){
+    pagerActive=false; pagerLines=null;
+    if(pagerAnchor){ pagerAnchor.remove(); pagerAnchor=null; }
+    var bar=term.querySelector('.pager-status');
+    if(bar) bar.remove();
+    var inputLine=term.querySelector('.input-line');
+    var spacer=document.createElement('span');
+    spacer.className='d'; spacer.innerHTML='&nbsp;';
+    term.insertBefore(spacer,inputLine);
+    inputLine.style.display='';
+    term.scrollTop=term.scrollHeight;
+    cmd.focus();
+  }
+
+  document.addEventListener('keydown',function(e){
+    if(!pagerActive) return;
+    var lh=probeLineHeight();
+    if(e.key==='q'||e.key==='Q'){ e.preventDefault(); pagerQuit(); }
+    else if(e.key===' '){ e.preventDefault(); pagerScroll(term.clientHeight-lh); }
+    else if(e.key==='Enter'||e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); pagerScroll(lh); }
+    else if(e.key==='ArrowUp'||e.key==='k'){ e.preventDefault(); pagerScroll(-lh); }
+    else if(e.key==='g'){ e.preventDefault(); scrollToAnchor(); pagerUpdateStatus(); }
+    else if(e.key==='G'){ e.preventDefault(); term.scrollTop=term.scrollHeight; pagerUpdateStatus(); }
+  });
+
   function exec(raw){
     echo(raw);
     if(!raw){ term.scrollTop=term.scrollHeight; return; }
@@ -343,23 +436,27 @@
     else if(command==='highlights') cmdHighlights(arg);
     else if(command==='experience'||command==='exp') cmdExperience();
     else if(command==='education'||command==='edu') cmdEducation();
+    else if(command==='certs') cmdCerts();
     else if(command==='links') cmdLinks();
     else if(command==='clear') cmdClear();
+    else if(command==='reload') location.reload();
     else if(command==='cat'&&arg==='principles.txt') cmdPrinciples();
-    else out(['command not found: '+esc(raw), 'Type ? for available commands.']);
+    else out(['command not found: '+esc(raw)]);
   }
 
   function cmdHelp(){
-    out([
-      'Available commands:','',
+    paged([
+      'Available commands:',
       '  whoami             \u2014 Who am I?',
       '  cat principles.txt \u2014 Guiding principles',
       '  about              \u2014 Summary & expertise',
       '  highlights [year]  \u2014 Career highlights',
       '  experience         \u2014 Work history',
-      '  education          \u2014 Training & certifications',
+      '  education          \u2014 Training & education',
+      '  certs              \u2014 Certifications',
       '  links              \u2014 Social & professional links',
-      '  clear              \u2014 Clear terminal'
+      '  clear              \u2014 Clear terminal',
+      '  reload             \u2014 Refresh the page'
     ]);
   }
 
@@ -370,14 +467,16 @@
 
   function cmdPrinciples(){
     if(!cv) return out(['Security first. Ship with intent.','Learn everything. Depend on nothing.']);
-    cv.principles.forEach(function(p){ out([esc(p)]); });
+    var lines=[];
+    cv.principles.forEach(function(p){ lines.push(esc(p)); });
+    paged(lines);
   }
 
   function cmdAbout(){
     if(!cv) return out(['Loading...']);
     var lines = [esc(cv.summary),'','Expertise:'];
     cv.expertise.forEach(function(e){ lines.push('  \u2022 '+esc(e)); });
-    out(lines);
+    paged(lines);
   }
 
   function cmdHighlights(filter){
@@ -391,7 +490,7 @@
     if(!items.length) return out(['No highlights found for: '+esc(filter)]);
     var lines = [];
     items.forEach(function(h){ lines.push('<span style="color:var(--green)">'+h.year+'</span>  '+esc(h.text)); });
-    out(lines);
+    paged(lines);
   }
 
   function cmdExperience(){
@@ -406,20 +505,23 @@
       }
       lines.push('');
     });
-    out(lines);
+    paged(lines);
   }
 
   function cmdEducation(){
     if(!cv) return out(['Loading...']);
     var lines = [];
-    if(cv.certifications && cv.certifications.length){
-      lines.push('Certifications:');
-      cv.certifications.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
-      lines.push('');
-    }
     lines.push('Training & Education:');
     cv.education.forEach(function(e){ lines.push('  <span style="color:var(--green)">'+e.year+'</span>  '+esc(e.text)); });
-    out(lines);
+    paged(lines);
+  }
+
+  function cmdCerts(){
+    if(!cv) return out(['Loading...']);
+    if(!cv.certifications||!cv.certifications.length) return out(['No certifications found.']);
+    var lines = ['Certifications:'];
+    cv.certifications.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
+    paged(lines);
   }
 
   function cmdLinks(){
@@ -428,7 +530,7 @@
     Object.keys(cv.links).forEach(function(k){
       lines.push('  '+k.padEnd(10)+' <a href="'+esc(cv.links[k])+'" target="_blank" style="color:var(--accent)">'+esc(cv.links[k])+'</a>');
     });
-    out(lines);
+    paged(lines);
   }
 
   function cmdClear(){
