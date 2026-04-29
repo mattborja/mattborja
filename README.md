@@ -6,7 +6,7 @@ Senior Software Engineer · Security Researcher · Speaker
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mattborja)
 [![ORCiD](https://img.shields.io/badge/ORCiD-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-5528-9362)
 
-GIAC Advisory Board · Cloud Security & Identity · DevSecOps
+GIAC Advisory Board · Cloud Security & Identity · DevSecOps · Agentic AI
 
 ```
 ❯ cat principles.txt
