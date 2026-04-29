@@ -343,6 +343,7 @@
   }
 
   function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+  function escAttr(s){ return esc(s).replace(/"/g,'&quot;'); }
 
   function probeLineHeight(){
     var probe=document.createElement('span');
@@ -522,11 +523,11 @@
     if(!cv.certifications||!cv.certifications.length) return out(['No certifications found.']);
     var lines = ['Certifications:'];
     cv.certifications.forEach(function(c){
-      var label = typeof c === 'object' ? esc(c.text) : esc(c);
-      var url = typeof c === 'object' && c.url;
+      var label = (c && typeof c === 'object') ? esc(c.text) : esc(c);
+      var url = (c && typeof c === 'object') ? c.url : null;
       var safe = url && /^https?:\/\//.test(url);
       var entry = safe
-        ? '<a href="'+esc(url)+'" target="_blank" style="color:var(--accent)">'+label+'</a>'
+        ? '<a href="'+escAttr(url)+'" target="_blank" rel="noopener noreferrer" style="color:var(--accent)">'+label+'</a>'
         : label;
       lines.push('  \u2022 '+entry);
     });
