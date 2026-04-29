@@ -494,8 +494,7 @@
     });
     items.sort(function(a,b){return b.year-a.year;});
     if(filter){
-      var year = parseInt(filter);
-      if(!isNaN(year)) items = items.filter(function(h){return h.year===year;});
+      if(/^\d{4}$/.test(filter)) items = items.filter(function(h){return h.year===parseInt(filter,10);});
       else items = items.filter(function(h){return h.text.toLowerCase().indexOf(filter)!==-1;});
     }
     if(!items.length) return out(['No highlights found for: '+esc(filter)]);
