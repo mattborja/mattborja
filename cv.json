@@ -121,8 +121,8 @@
     { "year": 2004, "text": "High School Diploma" }
   ],
   "certifications": [
-    "GIAC Cloud Security Automation (GCSA), 2025",
-    "GIAC Advisory Board Member"
+    { "text": "GIAC Cloud Security Automation (GCSA), 2025", "url": "https://orcid.org/0009-0008-5528-9362" },
+    { "text": "GIAC Advisory Board Member", "url": "https://www.giac.org/advisory-board" }
   ],
   "links": {
     "linkedin": "https://linkedin.com/in/mattborja",

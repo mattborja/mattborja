@@ -521,7 +521,15 @@
     if(!cv) return out(['Loading...']);
     if(!cv.certifications||!cv.certifications.length) return out(['No certifications found.']);
     var lines = ['Certifications:'];
-    cv.certifications.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
+    cv.certifications.forEach(function(c){
+      var label = typeof c === 'object' ? esc(c.text) : esc(c);
+      var url = typeof c === 'object' && c.url;
+      var safe = url && /^https?:\/\//.test(url);
+      var entry = safe
+        ? '<a href="'+esc(url)+'" target="_blank" style="color:var(--accent)">'+label+'</a>'
+        : label;
+      lines.push('  \u2022 '+entry);
+    });
     paged(lines);
   }
 
