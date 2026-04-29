@@ -24,37 +24,6 @@
     "Retrieval-Augmented Generation (RAG)",
     "AI Policy & Governance"
   ],
-  "highlights": [
-    { "year": 2026, "text": "Onboarded teams and deployed AI policy enforcement using GitHub Teams" },
-    { "year": 2026, "text": "Built, tested, and deployed large application features using deep reasoning agentic AI with governance" },
-    { "year": 2026, "text": "Authored and maintained software and infrastructure provenance and documentation using moderate reasoning agentic AI" },
-    { "year": 2026, "text": "Conducted security audits on third-party software and produced formal reports using deep reasoning agentic AI with governance" },
-    { "year": 2026, "text": "Coordinated in-place refactoring of complex foundational components across multiple codebases simultaneously; performed precision hotswap in live, high-risk production environments using deep reasoning agentic AI" },
-    { "year": 2026, "text": "Validated, orchestrated, implemented, and tested migration options distilled from thousands of vendor documentation pages using agentic RAG (second brain) over MCP" },
-    { "year": 2026, "text": "Comprehended, reconstructed, and converted massive quantities of existing legacy application logic spanning multiple business contexts using deep reasoning agentic AI" },
-    { "year": 2025, "text": "Sponsored by Higher Education CISO for REN-ISAC membership" },
-    { "year": 2025, "text": "Led industry talk on building trust and securing the software supply chain using Web of Trust (archive.org/details/web-of-trust-2025)" },
-    { "year": 2025, "text": "Entered into Ellucian's Security Researcher Hall of Fame for responsible disclosure of high severity findings" },
-    { "year": 2025, "text": "Earned GIAC Cloud Security Automation (GCSA) certification; invited to GIAC Advisory Board" },
-    { "year": 2024, "text": "Designed and built a custom, business-oriented Salesforce Data Loader for Education Data Architecture at scale" },
-    { "year": 2024, "text": "Designed a custom data lake solution to enhance data management between provider and consumer systems" },
-    { "year": 2023, "text": "Streamlined proprietary NuGet packages distribution through change and release management" },
-    { "year": 2022, "text": "Contributed expert knowledge during Higher Education Library Special Lecture Series" },
-    { "year": 2021, "text": "Improved system reliability via high availability infrastructure and SAML identity services migration (2021-2023)" },
-    { "year": 2020, "text": "Enabled institution to launch SMS recruitment and engagement campaigns at scale using Twilio Messaging API" },
-    { "year": 2020, "text": "Facilitated local city IT department's first successful deployment of a SAML 2.0 Identity Provider" },
-    { "year": 2019, "text": "Recovered over $40,000 from a vendor breach and independently fulfilled website project requirements" },
-    { "year": 2019, "text": "Enhanced user experience by launching a mobile-friendly College Portal — improved login times by 95%" },
-    { "year": 2018, "text": "Replaced CAS Service Management WebApp with custom solution using Azure Repos and Azure Pipelines" },
-    { "year": 2017, "text": "Achieved institution's first successful deployment of a clustered SAML 2.0 Identity Provider" },
-    { "year": 2017, "text": "Pioneered DevOps adoption using Puppet Enterprise for efficient management across environments" },
-    { "year": 2016, "text": "Received DoD Challenge Coin for identifying vulnerabilities in Hack the Pentagon bug bounty program" },
-    { "year": 2016, "text": "Implemented FIPS-197 encryption in Arduino C for academic purposes, adhering to AES standards" },
-    { "year": 2015, "text": "Accelerated SIS integration delivery to Canvas, setting new standard for course and enrollment data" },
-    { "year": 2013, "text": "Identified and patched critical flaw in third-party identity provider; became institution's principal SSO manager" },
-    { "year": 2005, "text": "Streamlined computer lab setups including imaging and inventory management" },
-    { "year": 2004, "text": "Automated import of over 1,000 student accounts into Active Directory using Visual Basic" }
-  ],
   "experience": [
     {
       "role": "Manager, Web Services",
@@ -62,8 +31,24 @@
       "period": "2021 – Present",
       "summary": "Orchestrated adoption of SOPs and CI/CD for .NET applications. Designed career progression plans and established a Team Charter for web services.",
       "contributions": [
-        "Enhanced .NET application performance through CI/CD implementation",
-        "Instituted comprehensive progression plans for team development"
+        { "year": 2026, "text": "Onboarded teams and deployed AI policy enforcement using GitHub Teams" },
+        { "year": 2026, "text": "Built, tested, and deployed large application features using deep reasoning agentic AI with governance" },
+        { "year": 2026, "text": "Authored and maintained software and infrastructure provenance and documentation using moderate reasoning agentic AI" },
+        { "year": 2026, "text": "Conducted security audits on third-party software and produced formal reports using deep reasoning agentic AI with governance" },
+        { "year": 2026, "text": "Coordinated in-place refactoring of complex foundational components across multiple codebases simultaneously; performed precision hotswap in live, high-risk production environments using deep reasoning agentic AI" },
+        { "year": 2026, "text": "Validated, orchestrated, implemented, and tested migration options distilled from thousands of vendor documentation pages using agentic RAG (second brain) over MCP" },
+        { "year": 2026, "text": "Comprehended, reconstructed, and converted massive quantities of existing legacy application logic spanning multiple business contexts using deep reasoning agentic AI" },
+        { "year": 2025, "text": "Sponsored by Higher Education CISO for REN-ISAC membership" },
+        { "year": 2025, "text": "Led industry talk on building trust and securing the software supply chain using Web of Trust (archive.org/details/web-of-trust-2025)" },
+        { "year": 2025, "text": "Entered into Ellucian's Security Researcher Hall of Fame for responsible disclosure of high severity findings" },
+        { "year": 2025, "text": "Earned GIAC Cloud Security Automation (GCSA) certification; invited to GIAC Advisory Board" },
+        { "year": 2024, "text": "Designed and built a custom, business-oriented Salesforce Data Loader for Education Data Architecture at scale" },
+        { "year": 2024, "text": "Designed a custom data lake solution to enhance data management between provider and consumer systems" },
+        { "year": 2023, "text": "Streamlined proprietary NuGet packages distribution through change and release management" },
+        { "year": 2022, "text": "Contributed expert knowledge during Higher Education Library Special Lecture Series" },
+        { "year": 2021, "text": "Improved system reliability via high availability infrastructure and SAML identity services migration (2021-2023)" },
+        { "text": "Enhanced .NET application performance through CI/CD implementation" },
+        { "text": "Instituted comprehensive progression plans for team development" }
       ]
     },
     {
@@ -72,8 +57,12 @@
       "period": "2019 – 2021",
       "summary": "Implemented Change Management and Project Management frameworks. Led core development team formation and mentored staff across levels.",
       "contributions": [
-        "Deployed Change Management framework, reducing project delays",
-        "Mentored core team of three; advised employees across Director level"
+        { "year": 2020, "text": "Enabled institution to launch SMS recruitment and engagement campaigns at scale using Twilio Messaging API" },
+        { "year": 2020, "text": "Facilitated local city IT department's first successful deployment of a SAML 2.0 Identity Provider" },
+        { "year": 2019, "text": "Recovered over $40,000 from a vendor breach and independently fulfilled website project requirements" },
+        { "year": 2019, "text": "Enhanced user experience by launching a mobile-friendly College Portal — improved login times by 95%" },
+        { "text": "Deployed Change Management framework, reducing project delays" },
+        { "text": "Mentored core team of three; advised employees across Director level" }
       ]
     },
     {
@@ -82,9 +71,16 @@
       "period": "2013 – 2019",
       "summary": "Managed ASP.NET curriculum with industry-relevant content. Developed high availability environments with Puppet Enterprise. Led migration from legacy to modern platforms.",
       "contributions": [
-        "Revised course content improving student practical application scores",
-        "Developed HA environment reducing downtime",
-        "Recognized by college leadership for outstanding system improvements"
+        { "year": 2018, "text": "Replaced CAS Service Management WebApp with custom solution using Azure Repos and Azure Pipelines" },
+        { "year": 2017, "text": "Achieved institution's first successful deployment of a clustered SAML 2.0 Identity Provider" },
+        { "year": 2017, "text": "Pioneered DevOps adoption using Puppet Enterprise for efficient management across environments" },
+        { "year": 2016, "text": "Received DoD Challenge Coin for identifying vulnerabilities in Hack the Pentagon bug bounty program" },
+        { "year": 2016, "text": "Implemented FIPS-197 encryption in Arduino C for academic purposes, adhering to AES standards" },
+        { "year": 2015, "text": "Accelerated SIS integration delivery to Canvas, setting new standard for course and enrollment data" },
+        { "year": 2013, "text": "Identified and patched critical flaw in third-party identity provider; became institution's principal SSO manager" },
+        { "text": "Revised course content improving student practical application scores" },
+        { "text": "Developed HA environment reducing downtime" },
+        { "text": "Recognized by college leadership for outstanding system improvements" }
       ]
     },
     {
@@ -106,7 +102,10 @@
       "org": "Secondary Education",
       "period": "2004 – 2008",
       "summary": null,
-      "contributions": []
+      "contributions": [
+        { "year": 2005, "text": "Streamlined computer lab setups including imaging and inventory management" },
+        { "year": 2004, "text": "Automated import of over 1,000 student accounts into Active Directory using Visual Basic" }
+      ]
     }
   ],
   "education": [

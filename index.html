@@ -486,10 +486,15 @@
 
   function cmdHighlights(filter){
     if(!cv) return out(['Loading...']);
-    var items = cv.highlights;
+    var items = [];
+    cv.experience.forEach(function(e){
+      e.contributions.forEach(function(c){
+        if(c.year !== undefined) items.push({year: c.year, text: c.text});
+      });
+    });
+    items.sort(function(a,b){return b.year-a.year;});
     if(filter){
-      var year = parseInt(filter);
-      if(!isNaN(year)) items = items.filter(function(h){return h.year===year;});
+      if(/^\d{4}$/.test(filter)) items = items.filter(function(h){return h.year===parseInt(filter,10);});
       else items = items.filter(function(h){return h.text.toLowerCase().indexOf(filter)!==-1;});
     }
     if(!items.length) return out(['No highlights found for: '+esc(filter)]);
@@ -506,7 +511,7 @@
       lines.push(esc(e.org)+' \u2022 '+esc(e.period));
       if(e.summary) lines.push(esc(e.summary));
       if(e.contributions.length){
-        e.contributions.forEach(function(c){ lines.push('  \u2022 '+esc(c)); });
+        e.contributions.forEach(function(c){ lines.push('  \u2022 '+esc(c.text)); });
       }
       lines.push('');
     });
